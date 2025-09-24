@@ -24,6 +24,9 @@ export default function App() {
         <Route path="/" element={<FDashboard />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register/>}/>
+
+  
+
         <Route path="/farmer-dashboard" element={<FDashboard />} />
         <Route path="/farmer-dashboard/addCrop" element={<AddCrop />} />
 
